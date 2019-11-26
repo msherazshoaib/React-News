@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+}
+.App-Components{
+    width: 960px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+.search-field{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 1px solid #1e1e1e;
+    margin-right: 10px;  
+}.news-form {
+    text-align: center;
+  }
+  .news-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .news-item {
+    width: 33%;
+    padding: 10px;
+  }
+  .news-item img {
+    display: block;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .lds-dual-ring {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid black;
+    border-color: black transparent black transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
